@@ -1,0 +1,85 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+.spot-wrapper {
+    width: 530px;
+    margin: 0 auto;
+}
+.spot-wrapper > hr {
+    border: 1px solid #F5F5F5;
+
+}
+
+.spot {
+    width: 530px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    color: #2B283A;
+    align-items: center;
+}
+
+.spot-details {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+
+.spot-image {
+    width: 125px;
+    height: 168px;
+
+    border-radius: 5px;
+}
+
+.spot-stats > svg{
+    margin-right: 3px;
+    width: 7px;
+    height: 9.55px;
+}
+
+.spot-location {
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin-right: 18px;
+}
+
+
+.spot-details > h2 {
+    margin: 0 0 10px 0;
+}
+
+
+
+.spot-map {
+    font-size: 10.24px;
+    line-height: 12px;
+
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+
+.spot-details > h2 {
+    font-size: 25px;
+}
+
+.spot-description {
+    font-size: 10.24px;
+    line-height: 150%;
+    max-width: 380px;
+    margin: 0;
+}
+
+.spot-date {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin: 0 0 7px 0;
+}
